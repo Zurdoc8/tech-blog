@@ -7,12 +7,13 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    color: #333;
+    color: green;
+    background-color: black;
   }
   
   a {
     text-decoration: none;
-    color: #225ca3;
+    color: green;
     font-weight: bold;
     transition: color .1s;
   }
@@ -22,10 +23,10 @@
   }
   
   button {
-    background-color: #225ca3;
+    background-color: yellow;
     border: 0;
     padding: 1%;
-    color: white;
+    color: black;
     font-weight: bold;
     transition: background-color .1s;
     cursor: pointer;
@@ -33,7 +34,7 @@
   }
   
   button:hover {
-    background-color: #3486eb;
+    background-color: orange;
   }
   
   .post-list {
@@ -49,7 +50,7 @@
   
   textarea:focus, input:focus {
     outline: none;
-    border: 1px solid #3486eb;
+    border: 1px solid crimson;
   }
   
   textarea {
@@ -72,6 +73,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+  
   }
   
   header {
@@ -88,7 +90,7 @@
   
   main {
     flex: 1;
-    padding: 2% 4%;
+    padding: 2% 4%;;
   }
   
   .btn-no-style {
@@ -97,7 +99,7 @@
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #225ca3;
+    color: green;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
